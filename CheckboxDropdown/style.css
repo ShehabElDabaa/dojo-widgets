@@ -1,0 +1,151 @@
+﻿.customcomboboxArrow {
+    width: 15px;
+    float: right;
+    pointer-events: none;
+    padding-top: 4px;
+}
+
+.customcomboboxSearchbox {
+    display: block;
+    height: 30px;
+    cursor: text !important;
+    pointer-events: auto !important;
+    width: 100% !important;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+    .dropdown dd,
+    .dropdown dt {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .dropdown dt {
+        cursor: pointer;
+    }
+
+    .dropdown ul {
+        margin: -1px 0 0 0;
+    }
+
+    .dropdown dd {
+        position: relative;
+    }
+
+    .dropdown a,
+    .dropdown a:visited {
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+    }
+
+    .dropdown dt a {
+        display: block;
+        min-height: 20px;
+        line-height: 24px;
+        overflow: hidden;
+        border: 0;
+        color: black;
+        border: 0.05px solid;
+        border-color: #dcd1d1;
+        height: 30px;
+    }
+
+    .dropdown dt :hover {
+        background: #dee0e0;
+    }
+
+    .dropdown dt a span,
+    .multiSel span {
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 3px 2px 0;
+        vertical-align: sub;
+    }
+
+.hida {
+    width: 100%;
+}
+
+.dropdown dd ul {
+    border: 0;
+    color: #fff;
+    left: 0px;
+    position: absolute;
+    list-style: none;
+    color: black;
+    border: 0.05px solid;
+    border-color: #dcd1d1;
+    background-color: #d3d5d6;
+    width: 100%;
+    padding: 0;
+}
+
+    .dropdown dd ul li {
+        pointer-events: none;
+        line-height: 0 !important;
+    }
+
+        .dropdown dd ul li:hover {
+            background-color: #b5b4b4;
+        }
+
+        .dropdown dd ul li input {
+            cursor: pointer;
+            padding-top: 5px;
+            margin: 0px;
+        }
+
+            .dropdown dd ul li input:focus {
+                outline: none;
+                outline-width: 0px;
+            }
+
+            .dropdown dd ul li input[type = checkbox] {
+                pointer-events: auto !important;
+                vertical-align: baseline;
+                min-height: 20px;
+                max-width: 4%;
+            }
+
+            .dropdown dd ul li input[type = button] {
+                width: 93%;
+            }
+
+        .dropdown dd ul li:hover > .inputNameDisplay {
+            background-color: #b5b4b4;
+        }
+
+.inputNameDisplay {
+    background-color: #d3d5d6;
+    border: 0px;
+    pointer-events: auto !important;
+    margin-left: 1px !important;
+    cursor: pointer;
+    text-align: left;
+    font-size: 10pt;
+    vertical-align: top;
+}
+
+.dropdown span.value {
+    display: none;
+}
+
+.dropdown dd ul li a {
+    padding: 5px;
+    display: block;
+}
+
+    .dropdown dd ul li a:hover {
+        background-color: #fff;
+    }
+
+
+.placehoder {
+    padding-left: 2px;
+    cursor: pointer;
+    pointer-events: none;
+}
